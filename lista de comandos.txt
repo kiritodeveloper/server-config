@@ -1,0 +1,85 @@
+svr1
+sedeca
+
+
+telefono 72423999
+
+
+
+https://www.enterprisedb.com/es/downloads/postgres-postgresql-downloads
+
+descargar la version q sedee
+
+sudo chmod +x archivo.run
+
+
+sudo apt install apache2 
+sudo apt install composer 
+
+sudo chmod -Rf 0777 /var/www/html/sedeca/bootstrap/cache
+sudo chmod -Rf 0777 /var/www/html/sedeca/storage
+sudo chmod -Rf 0777 /var/www/html/sedeca/public
+
+sudo apt-get install php*-pgsql
+
+apt-get update
+apt-get upgrade
+
+apt-get install apache2
+
+systemctl start apache2
+
+systemctl enable apache2
+
+systemctl status apache2
+
+
+sudo apt-get install software-properties-common python-software-properties
+
+
+sudo add-apt-repository -y ppa:ondrej/php
+sudo apt-get update
+
+
+sudo apt-get install php7.2 php7.2-cli php7.2-common
+
+sudo apt search php7.2
+
+sudo apt-get install php7.2-curl php7.2-gd php7.2-json php7.2-mbstring php7.2-intl php7.2-mysql php7.2-xml php7.2-zip
+
+
+php -v
+
+a2dismod php7.0
+
+a2enmod php7.2
+
+systemctl restart apache2
+
+
+
+referencia https://www.rosehosting.com/blog/how-to-install-php-7-2-on-ubuntu-16-04/
+
+
+server  habilitar proyecto
+
+en este archivo sudo nano /etc/apache2/sites-available/000-default.conf
+
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html{direccion proyecto}
+    ServerName server_domain_name_or_IP
+    <Directory /var/www/html/{direccion proyecto}>
+        AllowOverride All
+    </Directory>
+
+sudo a2enmod rewrite
+
+
+service apache2 restart
+
+
+sudo apt-get install php*-pgsql
+
+service apache2 restart

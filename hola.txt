@@ -1,0 +1,69 @@
+cambiar remision por acta de entrega 
+
+paso e l acta entrega 
+ en dos  casos  en conbustible y en tranferencia nos se elaboran pedidos
+
+ ****************************
+nota de ingreso 
+ubicacion
+clasicador de catalogo 
+
+catalogo de identificardor 
+
+
+******************************
+pedido 
+nota de remision 
+no acta  de entrega 
+para una persona encargada 
+******************************
+proyectos
+
+transferencia  
+nota de remisio
+ de almacen
+a almacen 
+
+
+*******************************
+codigo 
+
+
+*******************************
+prestamos de materiales
+
+******************************
+solicutud de material
+*****************************
+
+solicitud de pedido tiempo de valides 24 horas cantidad reservada
+
+alerta depedidos pendientes 
+
+articulos en custodia
+
+cualquier usuaurio 
+
+nota de solicitud 
+
+acta de entrega 
+
+****************************
+reporte de consumo por articulo 
+reporte de consunmo valorado
+reporte de saldo de materiales  
+reporte de clacificador 
+reposter dcon la ufv  del dia  
+reporte de invetarios totales
+reporte por ubicacion 
+grafica de consumo 
+
+
+
+****************************
+
+bodega reporte gasto 
+
+reporte para le sae por gestion de ufv 
+
+
